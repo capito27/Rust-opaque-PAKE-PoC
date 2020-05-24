@@ -1,0 +1,19 @@
+[package]
+name = "opaque"
+version = "0.1.0"
+authors = ["Filipe Fortunato <f.filipe.30.03@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+h2c-rust-ref = { git = "https://github.com/capito27/h2c-rust-ref" }
+redox-ecc = { git = "https://github.com/capito27/redox-ecc" }
+hmac = "0.7.1"
+sha3 = "0.8.2"
+num-bigint = "0.2.6"
+sodiumoxide = "0.2.5"
+rand = "0.7.3"
+threadpool = "1.8.0"
+hex = "0.4.2"
+zeroize = "1.1.0"
