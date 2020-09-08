@@ -54,11 +54,3 @@ Every time a scalar in Zq is required, it's obtained by requesting 256 bits from
 All points are serialised in compressed form (x coordinate, and a sign byte)
 
 
-
-### Bonus and nice features
-
-1. Used the hash_to_curve draft standard instead of the naive multiplication by the generator
-2. Implemented the protocol as a Rust library
-3. Prevented reuse of interrupted/broken session (a broken context can't be reused)
-4. clear the aead encryption/decryption key as soon as it is no longer in use
-
